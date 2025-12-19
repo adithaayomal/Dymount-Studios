@@ -1,0 +1,69 @@
+# Node
+node_modules/
+
+# Build
+build/
+dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage
+coverage/
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Others
+*.swp
+*.swo
+
+# Server
+server/node_modules/
+server/build/
+server/dist/
+
+# Client
+client/node_modules/
+client/build/
+client/dist/
+
+# Asset outputs
+client/src/assets/3D/
+client/src/assets/images/
+
+# Test outputs
+client/src/*.test.js
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.old
+
+# Ignore local config
+*.local.js
+*.local.json
+
+# Ignore coverage
+client/coverage/
+server/coverage/
